@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated outputs
+/outputs/*
+!/outputs/.gitkeep
+
+# Input videos
+/squat.mp4
+/data/raw/*.mp4
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+/frame_pertama.jpg
